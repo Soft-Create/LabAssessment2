@@ -8,7 +8,9 @@ private:
 	std::string _firstName, _lastName, _address, _city,_phone;
 	int _age;
 public:
+	Student();
 	Student(string, string, string, string, string, int);
+	~Student();
 	string getFirstName();
 	string getLastName();
 	int getAge();

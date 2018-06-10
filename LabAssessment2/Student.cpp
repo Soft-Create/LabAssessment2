@@ -4,6 +4,10 @@
 
 using namespace std;
 
+Student::Student()
+{
+}
+
 Student::Student(string firstName, string lastName, string address, string city, string phone, int age)
 {
 	_firstName = firstName;
@@ -12,6 +16,11 @@ Student::Student(string firstName, string lastName, string address, string city,
 	_city = city;
 	_phone = phone;
 	_age = age;
+}
+
+Student::~Student()
+{
+	cout << "Student object deleted" << endl;
 }
 
 string Student::getFirstName()

@@ -4,6 +4,10 @@
 
 using namespace std;
 
+Teacher::Teacher()
+{
+}
+
 Teacher::Teacher(string firstName, string lastName, string address, string city, string phone, int age)
 {
 	_firstName = firstName;
@@ -12,6 +16,11 @@ Teacher::Teacher(string firstName, string lastName, string address, string city,
 	_city = city;
 	_phone = phone;
 	_age = age;
+}
+
+Teacher::~Teacher()
+{
+	cout << "Teacher object deleted" << endl;
 }
 
 string Teacher::getFirstName()
