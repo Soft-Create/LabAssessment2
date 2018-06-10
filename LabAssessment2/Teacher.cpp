@@ -55,7 +55,7 @@ string Teacher::getPhone()
 
 void Teacher::gradeStudent()
 {
-	cout << "Teacher graded" << endl;
+	cout << "Student graded" << endl;
 }
 
 void Teacher::sitInClass()
