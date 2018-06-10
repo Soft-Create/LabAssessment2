@@ -8,6 +8,7 @@ private:
 	string _firstName, _lastName, _address, _city, _phone;
 	int _age;
 public:
+	Teacher(string, string, string, string, string, int);
 	string getFirstName();
 	string getLastName();
 	int getAge();
