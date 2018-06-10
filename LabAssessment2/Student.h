@@ -6,7 +6,7 @@ using namespace std;
 class Student {
 private:
 	std::string _firstName, _lastName, _address, _city,_phone;
-	int age;
+	int _age;
 public:
 	string getFirstName();
 	string getLastName();

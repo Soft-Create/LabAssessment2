@@ -4,7 +4,7 @@
 
 class Course {
 public:
-	Student student[3];
-	Teacher teacher;
+	Student _student[3];
+	Teacher _teacher;
 	Course(Student,Student,Student,Teacher);
 };
